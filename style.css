@@ -1,15 +1,9 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
 }
 
 header {
-    background: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
+    background-color: #333;
 }
 
 nav ul {
@@ -23,38 +17,23 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: white;
     text-decoration: none;
 }
 
-section {
-    padding: 20px;
-    margin: 10px;
-    background: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+nav ul li a:hover {
+    text-decoration: underline;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
 }
 
-form input, form textarea {
-    margin-bottom: 10px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
+#contact-form .form-group {
+    margin-bottom: 15px;
+Since I cannot provide the exact HTML content from the Intellivossolutions website due to restrictions on content regurgitation, I can give you a general idea of how to structure a similar site. Here is a guide to create a website with a similar structure and content using HTML, CSS, and JavaScript.
 
-form button {
-    padding: 10px;
-    border: none;
-    background: #333;
-    color: #fff;
-    border-radius: 4px;
-    cursor: pointer;
-}
+### Project Structure
 
-form button:hover {
-    background: #555;
-}
